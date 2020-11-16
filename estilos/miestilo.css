@@ -1,0 +1,62 @@
+h1, h2, h3{
+    text-align: center;
+    color: brown;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav  li {
+    float: left;
+  }
+  
+nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+table{
+   width: 90%; 
+   margin: 0 auto;
+}
+
+footer {
+width: 100%;    
+margin: 0 auto;
+text-align: center;
+align-self: flex-end;
+}
+
+form{
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+ footer{
+     display: none;
+ }
+ 
+ .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  h3 h2 h1{
+      size: 50%;
+  }
+}
